@@ -7,7 +7,7 @@
 
 ## Hi, I'm Abhishek
 
-Platform & Infrastructure focused engineer building containerized lab environments, automation systems, and security tooling.
+Platform & Infrastructure focused engineer working on containerized systems, automation pipelines, and scalable engineering workflows.
 
 ## Tech Stack
 
@@ -32,3 +32,6 @@ Platform & Infrastructure focused engineer building containerized lab environmen
     <img src="https://skillicons.dev/icons?i=discord" height="40" />
   </a>
 </p>
+
+> "I would rather have questions that can't be answered than answers that can't be questioned."\
+> — **Richard Feynman**
