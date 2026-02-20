@@ -1,8 +1,8 @@
 ## Hi there 👋
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/light.svg">
-  <img alt="me" src="assets/dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark-ne.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/light-ne.svg">
+  <img alt="me" src="assets/dark-ne.svg">
 </picture>
 <!--
 **abhi-vmlinuz/abhi-vmlinuz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
