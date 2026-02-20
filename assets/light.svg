@@ -65,11 +65,21 @@
   </text>
 
   <text class="info">
-    <tspan x="550" y="80">OS: Fedora · Debian · Arch · Windows</tspan>
-    <tspan x="550" dy="18">Human Languages: English · Malayalam</tspan>
-    <tspan x="550" dy="18">Focus: DevOps · Cloud Infrastructure · Platform Engineering</tspan>
-    <tspan x="550" dy="18">Projects: Nexus Engine · Nexus Labs</tspan>
-    <tspan x="550" dy="18">Contact: abhishekvincent29@outlook.com</tspan>
-    <tspan x="550" dy="18">Discord: 107.0.0.1</tspan>
+    <tspan x="550" y="80">OS: Fedora · Android · Windows</tspan>
+    <tspan x="550" dy="28">Languages: Bash · Python · C · Go </tspan>
+    <tspan x="550" dy="28">Focus: DevOps · Cloud Infrastructure · Platform Engineering</tspan>
+    <tspan x="550" dy="28">Top Projects: Nexus Engine · Nexus Labs</tspan>
+
+    <tspan x="550" dy="28">---------------------------------------------</tspan>
+<tspan x="550" dy="40">Stack: Docker · Kubernetes · Linux · GitHub Actions</tspan>
+<tspan x="550" dy="28">Cloud: AWS · GCP · Azure (learning/using)</tspan>
+<tspan x="550" dy="28">CI/CD: GitHub Actions · GitLab CI</tspan>
+<tspan x="550" dy="30">---------------------------------------------</tspan>
+<tspan x="550" dy="40">Role: DevOps / Platform Engineer</tspan>
+<tspan x="550" dy="28">Organization: ZecurX Cybersecurity Pvt.Ltd</tspan>
+<tspan x="550" dy="28">Editor: Sublime Text / VSCode</tspan>
+<tspan x="550" dy="30">---------------------------------------------</tspan>
+<tspan x="550" dy="38">Contact: abhishekvincent29@outlook.com</tspan>
+    <tspan x="550" dy="28">Discord: 107.0.0.1</tspan>
   </text>
 </svg>
