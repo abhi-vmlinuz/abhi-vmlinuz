@@ -12,8 +12,8 @@
 
 <img src="./hd-about.svg" width="620" alt="about"/>
 
-> ex platform engineer @ ZecurX Cybersecurity<br>
 > MCA Student @ Rajagiri College of Social Sciences.<br>
+> ex platform engineer @ ZecurX Cybersecurity<br>
 > Into cloud, DevOps and Linux.
 
 I learn by building, breaking and fixing real systems. Mostly Linux, containers,
