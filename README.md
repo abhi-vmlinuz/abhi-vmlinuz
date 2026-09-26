@@ -12,17 +12,18 @@
 
 <img src="./hd-about.svg" width="620" alt="about"/>
 
-> Platform engineer in Kerala, India. MCA @ Rajagiri, BCA Cybersecurity (9.12).<br>
-> Small, sharp tools over big vague ideas.
+> Ex platform engineer in Kerala, India. First year MCA @ Rajagiri, BCA Cybersecurity (9.12).<br>
+> Into cloud, DevOps and Linux internals.
 
-I build ephemeral lab infra and ship it to real users. Right now that's
-**Nexus** — a self-hosted CTF orchestration platform running 50+ concurrent
-isolated sessions at [ZecurX](https://github.com/abhi-vmlinuz) for 500+ users. Also
-deep into Linux internals: inode-level recovery, JSON TUI tooling, port inspection.
+I learn by building, breaking and fixing real systems. Mostly Linux, containers,
+networking and automation around Kubernetes and CI/CD. One thing I worked on is
+[Nexus](https://github.com/abhi-vmlinuz/nexus-framework), an ephemeral lab setup
+used for CTF work at [ZecurX](https://www.zecurx.com/). The rest of my time goes
+to small CLI tools for files, JSON and ports.
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
-<samp>bash &nbsp; python &nbsp; go &nbsp; linux &nbsp; docker &nbsp; kubernetes &nbsp; postgres &nbsp; git &nbsp; firecracker &nbsp; c &nbsp; sql</samp>
+<samp>bash &nbsp; python &nbsp; go &nbsp; linux &nbsp; docker &nbsp; kubernetes &nbsp; terraform &nbsp; aws &nbsp; git &nbsp; c &nbsp; sql</samp>
 
 <img src="./hd-projects.svg" width="620" alt="projects"/>
 
@@ -32,7 +33,7 @@ operator CLI with live TUI, multi-arch releases via GitLab CI.
 
 **[rinode](https://github.com/abhi-vmlinuz/rinode)** &nbsp;·&nbsp; <samp>rust, linux, sqlite</samp><br>
 Zero-copy deleted-file tracking for Linux. Retains inodes instead of copying<br>
-data — instant restore on ext4, Btrfs, XFS with CLI/TUI + audit log.
+data, for instant restore on ext4, Btrfs, XFS with CLI/TUI and audit log.
 
 **[tquery](https://github.com/abhi-vmlinuz/tquery)** &nbsp;·&nbsp; <samp>go, jq, tui</samp><br>
 Interactive JSON query + visualization CLI. Smart table/tree detection,<br>
@@ -40,7 +41,7 @@ embedded jq, vim-style nav, live filtering for APIs, Docker, K8s.
 
 **[ports](https://github.com/abhi-vmlinuz/ports)** &nbsp;·&nbsp; <samp>go, linux</samp><br>
 Fast `what's on this port?` CLI + live TUI. Listener, owner process,<br>
-cwd, etime — kill without chaining lsof/ps.
+cwd, etime, kill without chaining lsof/ps.
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
 
@@ -52,26 +53,15 @@ cwd, etime — kill without chaining lsof/ps.
 
 </div>
 
-<img src="./hd-about-this-page.svg" width="620" alt="about this page"/>
+<img src="./hd-quote.svg" width="620" alt="quote"/>
 
-Every graphic here is generated locally, not embedded from anyone else's server.<br>
-`stats.svg`, `streak.svg`, `year.svg` and these section headings are drawn by<br>
-[`scripts/generate_stats.py`](scripts/generate_stats.py) straight from the GitHub
-GraphQL API — run it manually whenever you want, committing only what changed:
+> "I would rather have questions that can't be answered than answers that can't be questioned."<br>
+> Richard Feynman
 
-```bash
+<!--
+Maintainer note: stats.svg, streak.svg, year.svg and hd-*.svg are drawn by
+scripts/generate_stats.py from the GitHub GraphQL API. Refresh with:
 GITHUB_TOKEN=<token> GH_LOGIN=abhi-vmlinuz python3 scripts/generate_stats.py
-```
-
-They animate with SMIL inside the SVG, because GitHub strips scripts from<br>
-READMEs — and since nothing loads from a third party, nothing here can<br>
-rate-limit or go dark. The headings are SVGs for the same reason: GitHub also<br>
-strips CSS, so an image is the only way to put this page's own typeface on them.
-
-The typeface is [JetBrains Mono](scripts/fonts), subset and inlined as base64.<br>
-No language breakdown on purpose — this page shows activity, not a language<br>
-leaderboard. `year.svg` uses the ramp: `:` `+` `#` `@`, quiet to loud.
-
-No GitHub Actions required. No GitLab CI required. Static by default —
-re-run the script when you feel like it, or wire it to a local cron / GitLab
-schedule later (see `.gitlab-ci.yml`).
+Static by default, no Actions required. See .gitlab-ci.yml for optional schedule.
+Fonts in scripts/fonts (JetBrains Mono, OFL). No langs.svg by design.
+-->
