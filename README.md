@@ -12,8 +12,9 @@
 
 <img src="./hd-about.svg" width="620" alt="about"/>
 
-> Ex platform engineer in Kerala, India. First year MCA @ Rajagiri, BCA Cybersecurity (9.12).<br>
-> Into cloud, DevOps and Linux internals.
+> ex platform engineer @ ZecurX Cybersecurity<br>
+> MCA Student @ Rajagiri College of Social Sciences.<br>
+> Into cloud, DevOps and Linux.
 
 I learn by building, breaking and fixing real systems. Mostly Linux, containers,
 networking and automation around Kubernetes and CI/CD. One thing I worked on is
@@ -23,25 +24,25 @@ to small CLI tools for files, JSON and ports.
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
-<samp>bash &nbsp; python &nbsp; go &nbsp; linux &nbsp; docker &nbsp; kubernetes &nbsp; terraform &nbsp; aws &nbsp; git &nbsp; c &nbsp; sql</samp>
+<samp>bash &nbsp; linux &nbsp; AWS &nbsp; python &nbsp; docker &nbsp; kubernetes &nbsp; Docker &nbsp; git &nbsp; C &nbsp; sql</samp>
 
 <img src="./hd-projects.svg" width="620" alt="projects"/>
 
 **[nexus-framework](https://github.com/abhi-vmlinuz/nexus-framework)** &nbsp;·&nbsp; <samp>go, k3s, wireguard</samp><br>
-Self-hosted, bare-metal CTF orchestration. Ephemeral isolated challenges,<br>
-operator CLI with live TUI, multi-arch releases via GitLab CI.
+<samp>Self-hosted, bare-metal CTF orchestration. Ephemeral isolated challenges,<br>
+operator CLI with live TUI, multi-arch releases via GitLab CI. &nbsp; </samp>
 
-**[rinode](https://github.com/abhi-vmlinuz/rinode)** &nbsp;·&nbsp; <samp>rust, linux, sqlite</samp><br>
-Zero-copy deleted-file tracking for Linux. Retains inodes instead of copying<br>
-data, for instant restore on ext4, Btrfs, XFS with CLI/TUI and audit log.
+**[rinode](https://github.com/abhi-vmlinuz/rinode)** &nbsp;·&nbsp; <samp>rust, sqlite</samp><br>
+<samp>A safe alternative to rm with instant restore for Linux. Retains inodes instead of copying<br>
+data, for instant restore on ext4, Btrfs, XFS with CLI/TUI and audit log.</samp>
 
 **[tquery](https://github.com/abhi-vmlinuz/tquery)** &nbsp;·&nbsp; <samp>go, jq, tui</samp><br>
-Interactive JSON query + visualization CLI. Smart table/tree detection,<br>
-embedded jq, vim-style nav, live filtering for APIs, Docker, K8s.
+<samp>Interactive JSON query + visualization CLI. Smart table/tree detection,<br>
+embedded jq, vim-style nav, live filtering for APIs, Docker, K8s.</samp>
 
-**[ports](https://github.com/abhi-vmlinuz/ports)** &nbsp;·&nbsp; <samp>go, linux</samp><br>
-Fast `what's on this port?` CLI + live TUI. Listener, owner process,<br>
-cwd, etime, kill without chaining lsof/ps.
+**[ports](https://github.com/abhi-vmlinuz/ports)** &nbsp;·&nbsp; <samp>go</samp><br>
+<samp>Fast `what's on this port?` CLI + live TUI. Listener, owner process,<br>
+cwd, etime, kill without chaining lsof/ps.</samp>
 
 <img src="./hd-stats.svg" width="620" alt="stats"/>
 
@@ -58,10 +59,3 @@ cwd, etime, kill without chaining lsof/ps.
 > "I would rather have questions that can't be answered than answers that can't be questioned."<br>
 > Richard Feynman
 
-<!--
-Maintainer note: stats.svg, streak.svg, year.svg and hd-*.svg are drawn by
-scripts/generate_stats.py from the GitHub GraphQL API. Refresh with:
-GITHUB_TOKEN=<token> GH_LOGIN=abhi-vmlinuz python3 scripts/generate_stats.py
-Static by default, no Actions required. See .gitlab-ci.yml for optional schedule.
-Fonts in scripts/fonts (JetBrains Mono, OFL). No langs.svg by design.
--->
