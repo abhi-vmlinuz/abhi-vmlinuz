@@ -1,0 +1,26 @@
+# Optional — profile is static by default, no CI needed.
+# If you later want scheduled refreshes without GitHub Actions,
+# mirror this repo to GitLab and enable this schedule.
+# Requires a GitLab CI variable GITHUB_TOKEN (a fine-grained PAT with
+# read:user + read:public_repo, or just public access) and
+# GH_LOGIN=abhi-vmlinuz. It commits back via the same PAT.
+#
+# This is disabled by default — delete `rules` block to enable.
+
+stages: [stats]
+
+refresh-stats:
+  stage: stats
+  image: python:3.12-slim
+  rules:
+    - if: $RUN_STATS_REFRESH == "1"
+  script:
+    - python3 scripts/generate_stats.py
+    - git config user.name "gitlab-ci[bot]"
+    - git config user.email "gitlab-ci[bot]@noreply.local"
+    - git add stats.svg streak.svg year.svg hd-*.svg || true
+    - git diff --cached --quiet || git commit -m "stats: refresh profile graphics"
+    - git push https://oauth2:$GITHUB_TOKEN@github.com/abhi-vmlinuz/abhi-vmlinuz.git HEAD:main
+  variables:
+    GH_LOGIN: abhi-vmlinuz
+    OUT_DIR: .
