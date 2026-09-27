@@ -12,15 +12,15 @@
 
 <img src="./hd-about.svg" width="620" alt="about"/>
 
-> MCA Student @ Rajagiri College of Social Sciences.<br>
+> <samp>MCA Student @ Rajagiri College of Social Sciences.<br>
 > ex platform engineer @ ZecurX Cybersecurity<br>
-> Into cloud, DevOps and Linux.
+> Into cloud, DevOps and Linux.</samp>
 
-I learn by building, breaking and fixing real systems. Mostly Linux, containers,
+<samp>I learn by building, breaking and fixing real systems. Mostly Linux, containers,
 networking and automation around Kubernetes and CI/CD. One thing I worked on is
 [Nexus](https://github.com/abhi-vmlinuz/nexus-framework), an ephemeral lab setup
 used for CTF work at [ZecurX](https://www.zecurx.com/). The rest of my time goes
-to small CLI tools for files, JSON and ports.
+to small CLI tools for files, JSON and ports.</samp>
 
 <img src="./hd-stack.svg" width="620" alt="stack"/>
 
