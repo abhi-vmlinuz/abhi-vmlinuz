@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./banner.jpg" width="620" alt="Abhishek Vincent"/>
+<img src="./banner-wide.jpg" width="100%" alt="Abhishek Vincent"/>
 
-<img src="./stats.svg" width="620" alt="Contributions in the last year"/>
+<img src="./stats.svg" width="100%" alt="Contributions in the last year"/>
 
 [github](https://github.com/abhi-vmlinuz) &nbsp;·&nbsp;
 [linkedin](https://www.linkedin.com/in/abhishekvincent/) &nbsp;·&nbsp;
@@ -10,7 +10,7 @@
 
 </div>
 
-<img src="./hd-about.svg" width="620" alt="about"/>
+<img src="./hd-about.svg" width="100%" alt="about"/>
 
 > <samp>MCA Student @ Rajagiri College of Social Sciences.<br>
 > ex platform engineer @ ZecurX Cybersecurity<br>
@@ -22,11 +22,11 @@ networking and automation around Kubernetes and CI/CD. One thing I worked on is
 used for CTF work at [ZecurX](https://www.zecurx.com/). The rest of my time goes
 to small CLI tools for files, JSON and ports.</samp>
 
-<img src="./hd-stack.svg" width="620" alt="stack"/>
+<img src="./hd-stack.svg" width="100%" alt="stack"/>
 
 <samp>bash &nbsp; linux &nbsp; AWS &nbsp; python &nbsp; docker &nbsp; kubernetes &nbsp; Docker &nbsp; git &nbsp; C &nbsp; sql</samp>
 
-<img src="./hd-projects.svg" width="620" alt="projects"/>
+<img src="./hd-projects.svg" width="100%" alt="projects"/>
 
 **[nexus-framework](https://github.com/abhi-vmlinuz/nexus-framework)** &nbsp;·&nbsp; <samp>go, k3s, wireguard</samp><br>
 <samp>Self-hosted, bare-metal CTF orchestration. Ephemeral isolated challenges,<br>
@@ -44,17 +44,17 @@ embedded jq, vim-style nav, live filtering for APIs, Docker, K8s.</samp>
 <samp>Fast `what's on this port?` CLI + live TUI. Listener, owner process,<br>
 cwd, etime, kill without chaining lsof/ps.</samp>
 
-<img src="./hd-stats.svg" width="620" alt="stats"/>
+<img src="./hd-stats.svg" width="100%" alt="stats"/>
 
 <div align="center">
 
-<img src="./streak.svg" width="620" alt="Current and longest streak"/>
+<img src="./streak.svg" width="100%" alt="Current and longest streak"/>
 
-<img src="./year.svg" width="620" alt="The last year, one character per day"/>
+<img src="./year.svg" width="100%" alt="The last year, one character per day"/>
 
 </div>
 
-<img src="./hd-quote.svg" width="620" alt="quote"/>
+<img src="./hd-quote.svg" width="100%" alt="quote"/>
 
 > "I would rather have questions that can't be answered than answers that can't be questioned."<br>
 > Richard Feynman
