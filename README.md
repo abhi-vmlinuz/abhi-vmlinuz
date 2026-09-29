@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.jpg" width="620" alt="Abhishek Vincent"/>
+<img src="./banner.jpg" width="736" alt="Abhishek Vincent"/>
 
 <img src="./stats.svg" width="620" alt="Contributions in the last year"/>
 
